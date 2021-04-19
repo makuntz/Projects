@@ -13,7 +13,7 @@
 // console.log(solution('mundo'));
 
 function solution(str) {
-    var str;
+    
     return str.split('').reverse('').join('');
 }
 console.log(solution('mundo'));

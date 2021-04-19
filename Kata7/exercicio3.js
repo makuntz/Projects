@@ -2,7 +2,7 @@
 //sums all the cubed values from 1 to n, and returns that sum.
 
 function sumCubes(n){
-    var n;
+    
     var cont = 0;
 
     while(n > 0){

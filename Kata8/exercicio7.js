@@ -11,3 +11,4 @@ function grow(x){
     return k;
 }
 console.log(grow([3,6,12]));
+
