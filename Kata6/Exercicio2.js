@@ -3,9 +3,9 @@ that returns a string of those numbers in the form of a phone number.*/
 
 
 function createPhoneNumber(numbers){
-    let first = [numbers[0], numbers[1], numbers[2]].join('');
-    let second = [numbers[3], numbers[4], numbers[5]].join('');
-    let third = [numbers[6], numbers[7], numbers[8], numbers[9]].join('');
+    const first = [numbers[0], numbers[1], numbers[2]].join('');
+    const second = [numbers[3], numbers[4], numbers[5]].join('');
+    const third = [numbers[6], numbers[7], numbers[8], numbers[9]].join('');
 
     return  '('+ first + ')' + ' ' + second + '-' + third;
 
